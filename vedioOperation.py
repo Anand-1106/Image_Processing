@@ -14,9 +14,9 @@ while True:
         break
 """
 #Now capture video from webcam and save into memory
-cap = cv2.VideoCapture(0,cv2.CAP_DSHOW)
+cap = cv2.VideoCapture("C:\\Users\\MSI\\Desktop\\1\\vedio.mp4",cv2.CAP_DSHOW)
 fourcc = cv2.VideoWriter_fourcc(*"XVID")
-output = cv2.VideoWriter("C:\\Users\\MSI\\Desktop\\1\\outputs.mp4",fourcc,20.0,(640,480),0)
+output = cv2.VideoWriter("C:\\Users\\MSI\\Desktop\\1\\outputsg.mp4",fourcc,20.0,(640,480),0)
 print(cap)
 while cap.isOpened():
     ret,frame = cap.read()

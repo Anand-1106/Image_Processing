@@ -24,7 +24,7 @@ cv2.destroyAllWindows()
 
 """
 
-#Capture video from youtube
+"""#Capture video from youtube
 
 import cv2
 import pafy
@@ -36,7 +36,7 @@ data = data.getbest(preftype="mp4")
 cap = cv2.VideoCapture(0,cv2.CAP_DSHOW)
 cap.open(data.url)
 
-#print("check===",cap.isOpened())
+#print("check===",cap.isOpened())"
 
 
 #print(cap)
@@ -53,4 +53,4 @@ while(cap.isOpened()):
         break
     
 cap.release()
-cv2.destroyAllWindows()
+cv2.destroyAllWindows()"""
